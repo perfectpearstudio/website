@@ -1,0 +1,18 @@
+@media (max-width: 100em) {
+  #ifMobile1 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 34em) {
+  .image {
+    visibility: hidden;
+    margin-top: -100em;
+  }
+
+  #ifMobile1 {
+    visibility: visible;
+    width: 100%;
+    background-image: url(/img/background/phone.png);
+  }
+}
